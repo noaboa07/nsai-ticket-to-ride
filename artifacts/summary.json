@@ -1,0 +1,56 @@
+{
+  "config": {
+    "start_seed": 42,
+    "games_per_matchup": 20,
+    "agents": [
+      "random",
+      "symbolic",
+      "hybrid"
+    ],
+    "trace_file": "sample_trace.txt"
+  },
+  "agents": {
+    "random": {
+      "games": 80,
+      "win_rate": 0.025,
+      "avg_score": -38.15,
+      "avg_ticket_completion_rate": 0.07627480158730159,
+      "avg_tickets_completed": 0.575,
+      "avg_ticket_progress": 0.14457437518689614,
+      "avg_route_points": 2.3301488095238096,
+      "avg_claimed_routes": 6.675,
+      "avg_decision_time_ms": 0.07017816836071263,
+      "avg_game_length_turns": 37.225,
+      "avg_prevented_illegal_claims": 39.55727076606594,
+      "illegal_move_rejections": 0
+    },
+    "symbolic": {
+      "games": 80,
+      "win_rate": 0.7125,
+      "avg_score": 22.625,
+      "avg_ticket_completion_rate": 0.41875,
+      "avg_tickets_completed": 1.025,
+      "avg_ticket_progress": 0.39445322168172975,
+      "avg_route_points": 2.4567212301587302,
+      "avg_claimed_routes": 8.4625,
+      "avg_decision_time_ms": 2.7508829570267523,
+      "avg_game_length_turns": 37.075,
+      "avg_prevented_illegal_claims": 39.86048784505828,
+      "illegal_move_rejections": 0
+    },
+    "hybrid": {
+      "games": 80,
+      "win_rate": 0.7625,
+      "avg_score": 24.2625,
+      "avg_ticket_completion_rate": 0.42916666666666664,
+      "avg_tickets_completed": 1.05,
+      "avg_ticket_progress": 0.3905689787883798,
+      "avg_route_points": 2.4835267857142855,
+      "avg_claimed_routes": 8.55,
+      "avg_decision_time_ms": 3.8475486465298707,
+      "avg_game_length_turns": 37.325,
+      "avg_prevented_illegal_claims": 39.803070123783165,
+      "illegal_move_rejections": 0
+    }
+  }
+}

@@ -1,0 +1,212 @@
+Matchup: random vs symbolic
+Seed: 42
+
+Turn 1 | random | random claimed Juniper-Kingston for 1 points.
+Chosen: Claim Juniper-Kingston (r22, yellow, len=1)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 2 | symbolic | symbolic claimed Harbor-Irons for 2 points.
+Decision trace:
+1. Claim Harbor-Irons (r16, red, len=2) | total=18.40 (heuristic=16.40, symbolic=2.00)
+2. Claim Dover-Elm (r8, red, len=2) | total=11.40 (heuristic=9.40, symbolic=2.00)
+3. Claim Elm-Fairview (r10, red, len=1) | total=6.20 (heuristic=6.20, symbolic=0.00)
+Chosen: Claim Harbor-Irons (r16, red, len=2)
+Why: Claim Harbor-Irons for 2 route points because it reduces remaining ticket distance by 4.0
+
+Turn 3 | random | random claimed Elm-Fairview for 1 points.
+Chosen: Claim Elm-Fairview (r10, yellow, len=1)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 4 | symbolic | symbolic drew train cards: black, wild.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+2. Draw destination tickets keep=[0] | total=3.50 (heuristic=3.00, symbolic=0.50)
+3. Draw destination tickets keep=[0,1] | total=3.50 (heuristic=3.00, symbolic=0.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Dover-Harbor needs more blue cards.
+
+Turn 5 | random | random kept destination tickets: Elm-Lakeside.
+Chosen: Draw destination tickets keep=[0]
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 6 | symbolic | symbolic claimed Grafton-Harbor for 2 points.
+Decision trace:
+1. Claim Grafton-Harbor (r14, black, len=2) | total=15.90 (heuristic=12.40, symbolic=3.50)
+2. Claim Fairview-Grafton (r12, green, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+3. Claim Alder-Elm (r3, green, len=2) | total=6.90 (heuristic=5.40, symbolic=1.50)
+Chosen: Claim Grafton-Harbor (r14, black, len=2)
+Why: Claim Grafton-Harbor for 2 route points because it reduces remaining ticket distance by 2.0, it blocks about 2.0 opponent progress
+
+Turn 7 | random | random kept destination tickets: Benton-Kingston, Benton-Lakeside.
+Chosen: Draw destination tickets keep=[0,1]
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 8 | symbolic | symbolic claimed Alder-Elm for 2 points.
+Decision trace:
+1. Claim Alder-Elm (r3, green, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+2. Claim Fairview-Grafton (r12, green, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+3. Draw destination tickets keep=[0] | total=3.50 (heuristic=3.00, symbolic=0.50)
+Chosen: Claim Alder-Elm (r3, green, len=2)
+Why: Claim Alder-Elm for 2 route points because it blocks about 4.0 opponent progress
+
+Turn 9 | random | random drew train cards: white, yellow.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 10 | symbolic | symbolic drew train cards: red, yellow.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+2. Draw destination tickets keep=[0] | total=3.50 (heuristic=3.00, symbolic=0.50)
+3. Draw destination tickets keep=[0,1] | total=3.50 (heuristic=3.00, symbolic=0.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Dover-Harbor needs more blue cards.
+
+Turn 11 | random | random kept destination tickets: Cedar-Juniper, Alder-Kingston.
+Chosen: Draw destination tickets keep=[0,1]
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 12 | symbolic | symbolic drew train cards: green, red.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+2. Draw destination tickets keep=[0] | total=3.50 (heuristic=3.00, symbolic=0.50)
+3. Draw destination tickets keep=[0,1] | total=3.50 (heuristic=3.00, symbolic=0.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Dover-Harbor needs more blue cards.
+
+Turn 13 | random | random kept destination tickets: Cedar-Lakeside, Alder-Harbor.
+Chosen: Draw destination tickets keep=[0,1]
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 14 | symbolic | symbolic claimed Alder-Benton for 2 points.
+Decision trace:
+1. Claim Alder-Benton (r1, red, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+2. Claim Cedar-Dover (r6, red, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+3. Claim Dover-Elm (r8, red, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+Chosen: Claim Alder-Benton (r1, red, len=2)
+Why: Claim Alder-Benton for 2 route points because it blocks about 6.0 opponent progress
+
+Turn 15 | random | random drew train cards: red, white.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 16 | symbolic | symbolic drew train cards: blue, wild.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Dover-Harbor needs more blue cards.
+
+Turn 17 | random | random claimed Kingston-Lakeside for 2 points.
+Chosen: Claim Kingston-Lakeside (r21, white, len=2)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 18 | symbolic | symbolic claimed Cedar-Dover for 2 points.
+Decision trace:
+1. Claim Cedar-Dover (r6, blue, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+2. Claim Cedar-Dover (r6, green, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+3. Claim Cedar-Dover (r6, yellow, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+Chosen: Claim Cedar-Dover (r6, blue, len=2)
+Why: Claim Cedar-Dover for 2 route points because it blocks about 6.0 opponent progress
+
+Turn 19 | random | random claimed Dover-Elm for 2 points.
+Chosen: Claim Dover-Elm (r8, red, len=2)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 20 | symbolic | symbolic drew train cards: yellow, yellow.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Cedar-Grafton needs more white cards.
+
+Turn 21 | random | random drew train cards: white, wild.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 22 | symbolic | symbolic claimed Elm-Irons for 4 points.
+Decision trace:
+1. Claim Elm-Irons (r11, yellow, len=3) | total=16.80 (heuristic=15.30, symbolic=1.50)
+2. Claim Benton-Dover (r4, yellow, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+3. Draw 2 train cards | total=2.00 (heuristic=2.00, symbolic=0.00)
+Chosen: Claim Elm-Irons (r11, yellow, len=3)
+Why: Claim Elm-Irons for 4 route points because it reduces remaining ticket distance by 1.0, it blocks about 6.0 opponent progress
+
+Turn 23 | random | random drew train cards: blue, black.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 24 | symbolic | symbolic drew train cards: white, green.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Grafton-Kingston needs more red cards.
+
+Turn 25 | random | random claimed Alder-Cedar for 4 points.
+Chosen: Claim Alder-Cedar (r2, blue, len=3)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 26 | symbolic | symbolic claimed Fairview-Grafton for 2 points.
+Decision trace:
+1. Claim Fairview-Grafton (r12, green, len=2) | total=9.90 (heuristic=8.40, symbolic=1.50)
+2. Draw 2 train cards | total=2.00 (heuristic=2.00, symbolic=0.00)
+Chosen: Claim Fairview-Grafton (r12, green, len=2)
+Why: Claim Fairview-Grafton for 2 route points because it blocks about 5.0 opponent progress
+
+Turn 27 | random | random drew train cards: black, wild.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 28 | symbolic | symbolic drew train cards: white, blue.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Grafton-Kingston needs more red cards.
+
+Turn 29 | random | random drew train cards: red, blue.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 30 | symbolic | symbolic drew train cards: white, green.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Grafton-Kingston needs more red cards.
+
+Turn 31 | random | random claimed Benton-Fairview for 4 points.
+Chosen: Claim Benton-Fairview (r5, black, len=3)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 32 | symbolic | symbolic drew train cards: yellow, red.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Grafton-Kingston needs more red cards.
+
+Turn 33 | random | random drew train cards: wild, green.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 34 | symbolic | symbolic drew train cards: black, wild.
+Decision trace:
+1. Draw 2 train cards | total=9.00 (heuristic=7.50, symbolic=1.50)
+Chosen: Draw 2 train cards
+Why: Draw train cards because no route is currently claimable and Grafton-Kingston needs more red cards.
+
+Turn 35 | random | random drew train cards: white, white.
+Chosen: Draw 2 train cards
+Reason: Random baseline: selected uniformly from legal actions.
+
+Turn 36 | symbolic | symbolic claimed Cedar-Grafton for 7 points.
+Decision trace:
+1. Claim Cedar-Grafton (r7, white, len=4) | total=32.90 (heuristic=29.40, symbolic=3.50)
+2. Claim Fairview-Juniper (r13, white, len=4) | total=23.90 (heuristic=22.40, symbolic=1.50)
+3. Claim Benton-Dover (r4, yellow, len=2) | total=13.40 (heuristic=11.40, symbolic=2.00)
+Chosen: Claim Cedar-Grafton (r7, white, len=4)
+Why: Claim Cedar-Grafton for 7 route points because it reduces remaining ticket distance by 2.0, it blocks about 20.0 opponent progress
+
+Turn 37 | random | random claimed Fairview-Juniper for 7 points.
+Chosen: Claim Fairview-Juniper (r13, white, len=4)
+Reason: Random baseline: selected uniformly from legal actions.
+
+Final scores:
+- random: -1
+- symbolic: 31
+Winner: symbolic
